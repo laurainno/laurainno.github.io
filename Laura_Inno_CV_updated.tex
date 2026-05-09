@@ -1,0 +1,210 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[margin=1.8cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{ragged2e}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+
+\definecolor{accent}{HTML}{1F4E79}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent, pdftitle={Laura Inno - Curriculum vitae}, pdfauthor={Laura Inno}}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\footnotesize Laura Inno - Curriculum vitae}
+\fancyfoot[R]{\footnotesize Page \thepage\ of \pageref{LastPage}}
+
+\titleformat{\section}{\large\bfseries\color{accent}\uppercase}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{1.1em}{0.55em}
+\setlist[itemize]{leftmargin=1.2em, itemsep=0.15em, topsep=0.25em, parsep=0em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.35em}
+
+\newcommand{\cvitem}[2]{\begin{tabularx}{\textwidth}{@{}p{3.1cm}X@{}}\textbf{#1} & #2 \\ \end{tabularx}}
+\newcommand{\role}[3]{\cvitem{#1}{\textbf{#2}\\#3}}
+\newcommand{\subrole}[2]{\cvitem{#1}{#2}}
+\newcommand{\smallsep}{\vspace{0.25em}}
+
+\begin{document}
+
+{\Huge\bfseries Laura Inno}\hfill {\large\color{accent}Curriculum vitae}\par
+\vspace{0.45em}
+\begin{tabularx}{\textwidth}{@{}X r@{}}
+Associate Professor of Astrophysics, Department of Science and Technology, University of Naples ``Parthenope'' & Last updated: May 2026\\
+Centro Direzionale - Isola C4, 80143 Napoli, Italy & \href{mailto:laura.inno@uniparthenope.it}{laura.inno@uniparthenope.it}\\
+Tel. +39 081 5476623 \quad PEC: \href{mailto:laura.inno@uniparthenope.pec.it}{laura.inno@uniparthenope.pec.it} & ORCID: \href{https://orcid.org/0000-0002-0271-2664}{0000-0002-0271-2664}\\
+Website: \href{https://laurainno.github.io}{laurainno.github.io} & \href{https://www.uniparthenope.it}{Universit\`a degli Studi di Napoli Parthenope}
+\end{tabularx}
+
+\section*{Profile}
+Astrophysicist working at the interface between time-domain astronomy, Solar System science, exoplanets, stellar populations, and large-survey data analysis. My current research focuses on the automated detection and characterization of cometary activity in the Rubin LSST era, with direct relevance for the ESA \textit{Comet Interceptor} mission, and on machine-learning and statistical methods for extracting faint or transient signals from large astronomical datasets. My earlier work addressed Cepheids, the cosmic distance scale, Galactic structure, and the Magellanic Clouds.
+
+I have authored or co-authored more than 50 refereed publications, conference proceedings, white papers, and community reports. My bibliographic profile includes an ADS h-index of about 23 and more than 1500 citations; these figures should be refreshed from ADS before formal submission.
+
+\section*{Current appointment and qualifications}
+\role{01/07/2025--present}{Associate Professor of Astrophysics}{Department of Science and Technology, University of Naples ``Parthenope'', Italy. Scientific-disciplinary sector: FIS/05.}
+\subrole{ASN}{Italian National Scientific Qualification for Associate Professor, FIS/05, obtained May 2022.}
+
+\section*{Research interests}
+\begin{itemize}
+    \item Rubin LSST Solar System science; automated detection of cometary activity; survey pipelines and broker interoperability.
+    \item ESA \textit{Comet Interceptor}: target identification, early discovery of long-period and hyperbolic comets, dust-environment characterization.
+    \item Cometary dust modelling, coma/tail morphology, large-heliocentric-distance activity, and survey-based target selection.
+    \item Time-domain astronomy, variable stars, exoplanet transits, and machine-learning methods for astronomical classification and retrieval.
+    \item Cepheids, Galactic structure, Magellanic Clouds, and the extragalactic distance scale.
+\end{itemize}
+
+\section*{Academic and research appointments}
+\role{01/07/2022--30/06/2025}{Assistant Professor / Ricercatore a Tempo Determinato di Tipo B}{Department of Science and Technology, University of Naples ``Parthenope'', Italy.}
+\begin{itemize}
+    \item ESA-appointed member of the Target Identification Working Group for the \textit{Comet Interceptor} mission.
+    \item Co-Investigator of DISC, the Dust Impact Sensor and Counter onboard \textit{Comet Interceptor}.
+    \item Principal Investigator / responsible scientist for WP 5300, ``Activity in support of Comet Interceptor target selection'', within ASI-INAF agreements supporting \textit{Comet Interceptor} activities.
+    \item Contribution leader of the Italian Rubin LSST in-kind contribution ITA-INA-S11, developing software for cometary activity detection and characterization.
+    \item Member of Rubin Observatory LSST Science Collaborations, including the Solar System Science Collaboration.
+    \item Member of the Research Unit of the PRIN project ESPLORA: \textit{Exoplanet Spectroscopy at high resolution to Probe their Lost Origins by Revealing their Atmospheric Composition}.
+    \item Member of ESO Observing Programme Committee panels and regular referee for international astrophysical journals.
+\end{itemize}
+
+\role{23/08/2021--24/01/2022}{Maternity leave}{}
+
+\role{29/07/2019--30/06/2022}{Assistant Professor / Ricercatore a Tempo Determinato di Tipo A}{Department of Science and Technology, University of Naples ``Parthenope'', Italy. PON Ricerca e Innovazione 2014--2020, Azione I.2, Attrazione e Mobilit\`a Internazionale dei Ricercatori.}
+\begin{itemize}
+    \item Scientific responsibility for \textit{Comet Interceptor}-related activities and co-responsibility for WP 5200 on the Italian participation in the ESA mission Phase 0.
+    \item Teaching in physics, planetary environments, astrobiology, and general physics courses.
+    \item Supervision of theses on machine-learning applications to astronomical data, including variable-star and exoplanet-transit classification.
+\end{itemize}
+
+\role{05/11/2018--26/07/2019}{Postdoctoral researcher}{INAF - Osservatorio Astrofisico di Arcetri, Florence, Italy. Supervisor: Dr. Sofia Randich.}
+\begin{itemize}
+    \item Gaia-ESO Survey member, involved in quality control and Phase 3 delivery for the final public release.
+    \item ESA Gaia DPAC CU5 / Development Unit 13 activities for telluric-corrected spectra of spectrophotometric standard stars.
+    \item WEAVE Science Team member.
+\end{itemize}
+
+\role{01/07/2015--31/10/2018}{Postdoctoral researcher}{Max Planck Institut f\"ur Astronomie, Heidelberg, Germany. Milky Way Group, Department of Galaxies and Cosmology. Supervisor: Prof. Hans-Walter Rix.}
+\begin{itemize}
+    \item Led a project on data mining of the Pan-STARRS1 3$\pi$ multi-band time-domain catalogue.
+    \item Full member of SDSS and 4MOST; member of the SFB 881 ``The Milky Way System'' collaboration.
+\end{itemize}
+
+\role{2015}{Visiting researcher}{The University of Tokyo, Department of Astronomy, Japan; European Southern Observatory, Garching, Germany.}
+\begin{itemize}
+    \item Exploitation of IRSF/SIRIUS near-infrared time-series data and involvement in WINERED science-commissioning preparation.
+    \item Completion of near-infrared Cepheid template work at ESO.
+\end{itemize}
+
+\role{2011--2014}{PhD fellowship student}{University of Rome Tor Vergata and European Southern Observatory, Garching. Supervisors: Prof. Giuseppe Bono and Dr. Martino Romaniello.}
+\begin{itemize}
+    \item Research on Cepheids as stellar tracers for the Magellanic Clouds, Galactic structure, and the extragalactic distance scale.
+    \item Awarded an ESO PhD Studentship; ranked first in the national admission competition for the PhD programme in Astronomy, XXVII cycle.
+\end{itemize}
+
+\section*{Education}
+\role{22/12/2014}{PhD in Astronomy, cum laude}{University of Rome Tor Vergata. Thesis: \textit{Cepheids as stellar tracers to determine galactic structures: an application to the Magellanic Clouds}.}
+\role{2008--2011}{Master degree in Sciences of the Universe, cum laude}{University of Rome Tor Vergata. Thesis: \textit{Distance and geometry of the Magellanic Clouds using the Cepheid near-infrared Period-Luminosity relations}.}
+\role{2002--2007}{Bachelor degree in Physics, Astrophysics curriculum}{University of Salerno. Thesis: \textit{The structure of the Milky Way Bulge}. Grade: 108/110.}
+
+\section*{Major research leadership, projects, and collaborations}
+\begin{itemize}
+    \item \textbf{Rubin LSST in-kind contribution ITA-INA-S11}: contribution leader for the Italian software contribution focused on automated cometary activity detection and characterization in Rubin LSST data. The software framework includes pre-processing, moving-object centering and cropping, activity diagnostics, and forward modelling of cometary dust environments.
+    \item \textbf{TailKit / ADACTED / ComeToolKit}: development and coordination of software tools for cometary dust-environment characterization, designed to support Rubin-era Solar System science and ESA \textit{Comet Interceptor} target identification.
+    \item \textbf{ESA \textit{Comet Interceptor}}: appointed member of the Target Identification Working Group; Co-I of the DISC instrument; responsible for activities supporting target selection and dust-environment analysis.
+    \item \textbf{ExoplaNAts}: founding member of a collaboration involving the University of Naples Federico II, the University of Naples Parthenope, and NASA Goddard Space Flight Center, focused on exoplanet identification and characterization from space photometric and spectroscopic data.
+    \item \textbf{PETS}: member of the PEPSI/LBT Exoplanet Transit Survey.
+    \item \textbf{Large surveys and collaborations}: Rubin LSST Science Collaborations, SDSS, WEAVE, Gaia-ESO, Gaia DPAC, 4MOST, and SFB 881.
+\end{itemize}
+
+\section*{Teaching}
+Main teaching responsibilities at the University of Naples ``Parthenope'' include courses in physics and astrophysics-related topics for bachelor and master programmes, including:
+\begin{itemize}
+    \item Physics for Computer Science bachelor students.
+    \item Physics / General Physics for Cybersecurity Engineering and related bachelor programmes.
+    \item Physics II / electromagnetism modules for scientific and nautical/aeronautical degree programmes.
+    \item Physics and Quantum Computing for the MSc in Applied Computer Science - Big Data and Machine Learning.
+    \item Contributions to the International PhD Programme in Environment, Resources and Sustainable Development, including planetary environments and astrobiology topics.
+\end{itemize}
+
+\section*{Supervision and mentoring}
+\begin{itemize}
+    \item Supervisor and co-supervisor of bachelor and master theses in computer science, machine learning, time-domain astronomy, exoplanet detection, and Solar System science.
+    \item Supervisor of students and early-career researchers involved in Rubin LSST / \textit{Comet Interceptor} software and science activities.
+    \item Lecturer at the PhD School ``F. Lucchin: Science and Technology with E-ELT'', with tutorials on Python and IDL for time-domain analysis.
+    \item Tutor for the Astromundus programme in Stellar Astrophysics.
+\end{itemize}
+
+\section*{Selected invited talks, conferences, and seminars}
+\begin{itemize}
+    \item Invited talk, Societ\`a Italiana di Fisica, 109th National Congress, 2023.
+    \item Contributed talks at LSST@Europe5, European Astronomical Society meetings, EPSC, VST Science Workshop, and LSST / Solar System workshops.
+    \item Invited and contributed talks on Cepheids, Galactic structure, Magellanic Clouds, near-infrared spectroscopy, and time-domain astronomy at ESO, MIAPP, ISSI-BJ, Lorentz Center, Flatiron Institute, IAU Symposia, and other international venues.
+    \item Invited seminars at Roma Tre, INAF - Osservatorio Astronomico d'Abruzzo, INAF - Osservatorio Astrofisico di Torino, INAF - Osservatorio Astronomico di Capodimonte, INAF-OAS Bologna / University of Bologna, and MPIA Heidelberg.
+\end{itemize}
+
+\section*{Service, reviewing, and conference organization}
+\begin{itemize}
+    \item Regular referee for international astrophysics journals, including ApJ, MNRAS, and Nature Astronomy.
+    \item Review Editor for Frontiers in Physics and Frontiers in Astronomy and Space Sciences.
+    \item Member of telescope allocation / observing programme committees, including TNG and ESO-related panels.
+    \item Main organizer of ExoplaNAts monthly seminars and co-organizer of INAF-OAA Astrobign\`e seminars.
+    \item Main organizer and SOC chair of \textit{Piercing the Galactic Darkness: Stellar populations in highly extincted regions of the Milky Way} (GALDARK2017), including successful fundraising and budget management.
+    \item Member of organizing committees for international schools and workshops, including RASPUTIN, the Tokyo cosmic-distance-scale summer school, EWASS sessions, and young-researcher meetings.
+\end{itemize}
+
+\section*{Telescope time and observing experience}
+\begin{itemize}
+    \item Principal Investigator of successful observing proposals at ESO VLT, CAHA 3.5m / CARMENES, MPG 2.2m / GROND and FEROS, LBT / LUCI, and TNG / GIANO.
+    \item Co-Investigator of programmes at ESO VLT, ESO NTT / WINERED, TNG / GIARPS, TNG / DOLORES and NICS, HST, Subaru, and IRSF/SIRIUS.
+    \item Visitor-observer experience at ESO NTT, TNG, VLT, and OHP, with optical and near-infrared spectroscopy.
+    \item Expertise in target selection, observing-block preparation, survey catalogues, data reduction pipelines, telluric correction, spectroscopic analysis, and handling of science-verification operations.
+\end{itemize}
+
+\section*{Awards and fellowships}
+\begin{itemize}
+    \item Winner of a PON Ricerca e Innovazione 2014--2020 RTDA fellowship, Azione I.2, Attrazione e Mobilit\`a Internazionale dei Ricercatori.
+    \item Selected through the annual MPIA postdoctoral fellowship call.
+    \item ESO PhD Fellowship / Studentship.
+    \item Italian ministerial PhD fellowship, Astronomy XXVII cycle.
+    \item Travel grants and collaboration support from EAS, MIAPP, ISSI-BJ, Lorentz Center, MPIA, and SFB 881.
+\end{itemize}
+
+\section*{Memberships}
+\begin{itemize}
+    \item International Astronomical Union, member since 2025.
+    \item Societ\`a Astronomica Italiana.
+    \item Rubin Observatory LSST Science Collaborations and Italian Rubin LSST team.
+    \item SDSS external collaborator; former full member of SDSS and member of Gaia DPAC, Gaia-ESO, WEAVE, 4MOST, and SFB 881.
+\end{itemize}
+
+\section*{Public outreach and science communication}
+\begin{itemize}
+    \item Active in institutional outreach on astronomy, women in science, and inclusive academic environments.
+    \item Coordinator / proposer of the University project \textit{Noi, la loro eredit\`a}, promoted by the CUG for the International Day of Women and Girls in Science.
+    \item Invited speaker and panelist for public events, including Edu-INAF, ESERO, Futuro Remoto, Citt\`a della Scienza, European Researchers' Night, and public planetarium events.
+    \item Interviews and media contributions for national and science-communication outlets, including Corriere della Sera, Dire, Radio Rai 3, Il Bo Live, Meeting Science, and She is a Scientist.
+    \item Former collaborator with ScienzImpresa; ESO Italian press-release translator and Hubble Podcast subtitle editor.
+\end{itemize}
+
+\section*{Technical skills}
+\begin{itemize}
+    \item Programming and data analysis: Python, IDL, SQL, R, MPI, TOPCAT, IRAF, survey database APIs.
+    \item Scientific methods: machine learning, time-series analysis, Bayesian/probabilistic modelling, survey data mining, astronomical image processing, spectroscopic analysis.
+    \item Writing and communication tools: LaTeX/Overleaf, collaborative writing platforms, Office, Keynote, PowerPoint, Prezi.
+\end{itemize}
+
+\section*{Languages}
+Italian: native. English: proficient. German: basic.
+
+\section*{Personal-data authorization}
+I authorize the processing of personal data contained in this curriculum vitae pursuant to Art. 13 of Legislative Decree 196/2003 and Art. 13 of EU Regulation 2016/679 (GDPR).
+
+\end{document}

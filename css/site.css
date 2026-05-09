@@ -116,3 +116,29 @@ h3 { margin: 0 0 .5rem; font-size: 1.15rem; }
   .nav-links { justify-content: flex-start; gap: .75rem; }
   .hero-inner { padding-top: 4rem; }
 }
+
+.hero a { color: white; font-weight: 800; }
+.hero .button-primary { color: var(--primary-dark); }
+.hero .button-secondary { color: white; }
+.profile-links {
+  display: flex; justify-content: center; gap: .55rem; flex-wrap: wrap; margin-top: 1rem;
+}
+.profile-links a {
+  color: white; border: 1px solid rgba(255,255,255,.35); border-radius: 999px;
+  padding: .28rem .55rem; font-size: .85rem; font-weight: 700;
+}
+.text-link { display: inline-block; margin-top: .65rem; font-weight: 800; }
+.link-row { display: flex; gap: .55rem; flex-wrap: wrap; margin-top: 1rem; }
+.link-row a {
+  display: inline-flex; align-items: center; border: 1px solid var(--line); border-radius: 999px;
+  padding: .35rem .65rem; font-weight: 800; background: #f7fbfb;
+}
+.link-card { display: flex; flex-direction: column; gap: .55rem; }
+.link-card a {
+  border-bottom: 1px solid var(--line); padding-bottom: .45rem; font-weight: 750;
+}
+.link-card a:last-child { border-bottom: 0; padding-bottom: 0; }
+.news-item { display: flex; gap: .9rem; align-items: flex-start; }
+.news-item p { margin: .35rem 0 0; }
+.compact-links { margin-top: .65rem; }
+.compact-links a { font-size: .92rem; }
