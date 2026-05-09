@@ -1,131 +1,239 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html lang="en">
 <head>
-    <title>Laura Inno - Astrophysicist | Researcher | Educator</title>
-<meta name="description" content="Official website of Laura Inno, astrophysicist, researcher, and educator. Explore her research, publications, and teaching activities.">
-<meta name="keywords" content="Laura Inno, astrophysics, researcher, astronomy, exoplanets, comet interceptor, observational astronomy, space science">
-<meta name="author" content="Laura Inno">
-<meta property="og:title" content="Laura Inno - Astrophysicist | Researcher | Educator">
-<meta property="og:description" content="Explore the research, publications, and academic activities of Laura Inno, an astrophysicist at Parthenope University.">
-<meta property="og:image" content="images/my_photo.jpg">
-<meta property="og:url" content="https://yourwebsite.com">
-
-
-    <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:500,700,800" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <style>
-        #about {
-            background: url('images/comet_background.jpg') no-repeat center center;
-            background-size: cover;
-            color: white;
-            padding: 60px 20px;
-        }
-        .header-container {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 10px 20px;
-        }
-        .header-container img {
-            max-height: 10em;
-        }
-    </style>
-</head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Laura Inno | Astrophysicist</title>
+  <meta name="description" content="Official academic website of Laura Inno, Associate Professor of Astrophysics at Università degli Studi di Napoli Parthenope. Research in cometary science, Rubin LSST, Comet Interceptor, exoplanets, and stellar populations.">
+  <meta name="author" content="Laura Inno">
+  <meta name="keywords" content="Laura Inno, astrophysics, comets, Rubin LSST, Vera Rubin Observatory, Comet Interceptor, exoplanets, stellar populations, Parthenope University">
+  <meta property="og:title" content="Laura Inno | Astrophysicist">
+  <meta property="og:description" content="Associate Professor of Astrophysics working on cometary science, Rubin LSST, Comet Interceptor, exoplanets, and stellar populations.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/my_photo.png">
+  <meta property="og:site_name" content="Laura Inno">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://laurainno.github.io/">
+  <link rel="stylesheet" href="css/site.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Laura Inno",
+    "jobTitle": "Associate Professor of Astrophysics",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "Università degli Studi di Napoli Parthenope"
+    },
+    "email": "mailto:laura.inno@uniparthenope.it",
+    "url": "https://laurainno.github.io/",
+    "knowsAbout": ["Astrophysics", "Cometary science", "Rubin LSST", "Comet Interceptor", "Exoplanets", "Stellar populations"]
+  }
+  </script>
 </head>
 <body>
-    <header style="background-color: #1B6A64; color: #B1E4D1;" class="p-4">
-        <div class="container header-container">
-            <img src="images/logo.png" alt="Institution Logo" class="rounded-circle">
-            <div class="text-center">
-                <h1 style="color: #B1E4D1;">Laura Inno</h1>
-                <p style="color: white;">Astrophysicist | Researcher | Educator</p>
-            </div>
-            <img src="images/my_photo.png" alt="Laura Inno" class="rounded-circle">
-        </div>
-    </header>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#teaching">Teaching</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#cv">CV</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="#top">Laura Inno</a>
+      <div class="nav-links">
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#service">Service</a>
+        <a class="nav-cta" href="#contact">Contact</a>
+      </div>
     </nav>
+  </header>
 
-    <section id="about" class="container-fluid text-center">
-        <h2>About Me</h2>
-        <p>I am a postdoctoral researcher in Astrophysics at the Science and Technology Department of the Parthenope University of Naples, where I teach Physics and conduct research in Space Science, Observational Astronomy, and Astrophysics. I am a member of the ESA Mission Comet Interceptor Target Identification Working Group, the Vera Rubin LSST Solar System Science Collaboration, and the Weave Survey. I am also actively involved in several international collaborations and have a strong interest in Astronomical Education and DEI activities.</p>
+  <section class="hero" id="top" aria-label="Introductory section">
+    <div class="hero-inner">
+      <div>
+        <div class="kicker">Astrophysics · Space Science · Survey Astronomy</div>
+        <h1>Laura Inno</h1>
+        <p class="hero-lead">Associate Professor of Astrophysics at Università degli Studi di Napoli Parthenope. My research connects stellar astrophysics, exoplanetary science, and Solar System surveys, with a current focus on cometary activity in the Rubin LSST era and target identification for ESA’s Comet Interceptor mission.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#research">Explore my research</a>
+          <a class="button button-secondary" href="images/cv.pdf">Download CV</a>
+          <a class="button button-secondary" href="mailto:laura.inno@uniparthenope.it">Email me</a>
+        </div>
+      </div>
+      <aside class="hero-card" aria-label="Profile summary">
+        <img class="profile-photo" src="images/my_photo.png" alt="Portrait of Laura Inno">
+        <p class="affiliation"><strong>Università degli Studi di Napoli Parthenope</strong><br>Department of Science and Technology<br>Naples, Italy</p>
+      </aside>
+    </div>
+  </section>
+
+  <main id="main">
+    <section id="about">
+      <div class="section-head">
+        <h2>About</h2>
+        <p>I am an astrophysicist working at the interface between observational astronomy, space missions, and data-intensive survey science. I am involved in international collaborations including Rubin LSST Solar System Science Collaboration, ESA Comet Interceptor activities, and large spectroscopic surveys.</p>
+      </div>
+      <div class="grid grid-3">
+        <article class="card">
+          <h3>Cometary science</h3>
+          <p>Detection and characterization of cometary dust activity, with emphasis on long-period comets, interstellar objects, and large-scale survey discovery spaces.</p>
+        </article>
+        <article class="card">
+          <h3>Rubin LSST</h3>
+          <p>Development of automated tools for cometary activity detection and dust-tail characterization in the Vera C. Rubin Observatory LSST era.</p>
+        </article>
+        <article class="card">
+          <h3>Exoplanets & stars</h3>
+          <p>Research interests spanning exoplanet characterization, stellar populations, and the use of modern data-analysis methods in astrophysics.</p>
+        </article>
+      </div>
     </section>
 
-    <section id="research" class="container mt-5">
-        <h2 class="text-center">My Research</h2>
-        <p class="text-center">My research is centered around stellar astrophysics, exoplanetary science, and Solar System bodies, with key leadership roles in major projects.</p>
-        
-        <h3>Key Roles in Research Projects</h3>
-        <ul>
-            <li>Member of ESA's Target Selection Working Group for the Comet Interceptor Mission (2023-2026).</li>
-            <li>PI and Co-PI of several observational proposals at TNG (La Palma), Copernico Telescope (Asiago), and VST (Cerro Paranal).</li>
-            <li>Co-Investigator for the DISC instrument onboard the Comet Interceptor spacecraft.</li>
-            <li>Contribution Lead for the INAF-LSST in-kind program ITA-SW-11.</li>
-            <li>Co-coordinator of the interdisciplinary research group ExoPlaNAts.</li>
-            <li>Member of the PhD Board for the Unesco Chair in Environment, Resources, and Sustainable Development (2024-present).</li>
-            <li>PI of the project “Hunting for Another Earth with AI”.</li>
-            <li>Unit Head for the Parthenope Univeristy Inter-Departments project on gender equality and work-life balance </li>
-            <li>Research member in PRIN 2022 ESPLORA: High-resolution Exoplanet Spectroscopy.</li>
-            <li>Representative of the Solar System Science Collaboration in the LSST DEI Council.</li>
-        </ul>
+    <section id="research">
+      <div class="section-head">
+        <h2>Research focus</h2>
+        <p>My current research portfolio combines physically motivated modelling, observational programmes, and software development for next-generation astronomical surveys.</p>
+      </div>
+      <div class="grid grid-2">
+        <article class="card">
+          <h3>Comets, dust environments, and mission preparation</h3>
+          <p>I contribute to the scientific preparation of cometary missions and observing campaigns by studying dust activity, coma morphology, and the detectability of faint or distant active bodies.</p>
+          <div class="badge-row">
+            <span class="badge">Comet Interceptor</span>
+            <span class="badge">Dust modelling</span>
+            <span class="badge">Long-period comets</span>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Survey science and automated characterization</h3>
+          <p>Through the Italian Rubin LSST in-kind contribution, I coordinate work on software tools for identifying and characterizing cometary activity in survey images.</p>
+          <div class="badge-row">
+            <span class="badge">Rubin LSST</span>
+            <span class="badge">TailKit</span>
+            <span class="badge">Solar System surveys</span>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Exoplanet atmospheres and AI methods</h3>
+          <p>I am involved in interdisciplinary projects using machine-learning and data-analysis approaches for astrophysical classification, retrieval, and interpretation problems.</p>
+          <div class="badge-row">
+            <span class="badge">Exoplanets</span>
+            <span class="badge">Machine learning</span>
+            <span class="badge">Atmospheres</span>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Stellar populations</h3>
+          <p>My broader expertise includes stellar astrophysics and Galactic archaeology, developed through participation in major spectroscopic survey collaborations.</p>
+          <div class="badge-row">
+            <span class="badge">WEAVE</span>
+            <span class="badge">Gaia-ESO</span>
+            <span class="badge">APOGEE</span>
+          </div>
+        </article>
+      </div>
     </section>
 
-    <section id="publications" class="container mt-5">
-        <h2 class="text-center">Publications</h2>
-        <p class="text-center">Below is a selection of my most recent publications:</p>
-        <ul>
-            <li>Inno et al., 2025 - LSST and comets.</li>
-            <li>Magliano et al., 2023, 2024, 2025 - Exoplanetary atmospheric characterization.</li>
-            <li>Fiscale et al. (submitted to ApJ) - Machine Learning for exoplanets detection.</li>
-            <li>Other contributions to international peer-reviewed journals, conference abstracts, and invited talks.</li>
-        </ul>
+    <section id="projects">
+      <div class="section-head">
+        <h2>Selected roles and projects</h2>
+        <p>Representative scientific responsibilities and collaborations.</p>
+      </div>
+      <div class="timeline">
+        <div class="card timeline-item">
+          <h3>ESA Comet Interceptor</h3>
+          <p>Member of the Target Identification Working Group and Co-Investigator of the DISC instrument team.</p>
+        </div>
+        <div class="card timeline-item">
+          <h3>Rubin LSST Solar System Science Collaboration</h3>
+          <p>Active member of the SSSC and contribution lead for the Italian in-kind software activity supporting cometary dust-activity detection and characterization.</p>
+        </div>
+        <div class="card timeline-item">
+          <h3>TailKit / ADACTED</h3>
+          <p>Software framework for automated detection and forward modelling of cometary dust environments in Rubin LSST data.</p>
+        </div>
+        <div class="card timeline-item">
+          <h3>Observational programmes</h3>
+          <p>Principal investigator or co-investigator in observing programmes at facilities including TNG, VST, and the Asiago Copernico Telescope.</p>
+        </div>
+      </div>
     </section>
 
-    <section id="teaching" class="container mt-5">
-        <h2 class="text-center">Teaching</h2>
-        <p class="text-center">My teaching experience includes the following courses:</p>
-        <ul>
-            <li>Physics and Quantum Computing for Machine Learning and Big Data (6 CFU).</li>
-            <li>Physics for Informatics (3 CFU).</li>
-            <li>Physics for Naval Engineering (6 CFU).</li>
-            <li>General Physics for Cybersecurity Engineering.</li>
-            <li>Supervision of student research projects in astrophysics and AI applications.</li>
-        </ul>
+    <section id="publications">
+      <div class="section-head">
+        <h2>Publications and outputs</h2>
+        <p>A short curated selection should be updated with final bibliographic links. For now, the section highlights the main research lines represented in my publication record.</p>
+      </div>
+      <div class="grid">
+        <article class="card publication">
+          <span class="year">2025+</span>
+          <div><strong>Rubin LSST, comet discovery, and cometary activity characterization</strong><br><span class="muted">Work on survey-enabled characterization of long-period comets and mission-relevant target identification.</span></div>
+        </article>
+        <article class="card publication">
+          <span class="year">2023–25</span>
+          <div><strong>Exoplanetary atmospheric characterization</strong><br><span class="muted">Collaborative work on exoplanet retrieval and interpretation, including machine-learning-oriented approaches.</span></div>
+        </article>
+        <article class="card publication">
+          <span class="year">ongoing</span>
+          <div><strong>Machine learning for astrophysical detection and classification</strong><br><span class="muted">Applications to exoplanets, Solar System objects, and survey-scale analysis.</span></div>
+        </article>
+      </div>
+      <p class="muted">Suggested next step: add links to ADS, ORCID, Google Scholar, and 4–6 selected papers with DOI/ADS URLs.</p>
     </section>
 
-    <section id="cv" class="container mt-5">
-        <h2 class="text-center">Curriculum Vitae</h2>
-        <p class="text-center"><a href='images/cv.pdf' download="Laura_Inno_CV.pdf">Download my CV</a>
-    </p>
+    <section id="teaching">
+      <div class="section-head">
+        <h2>Teaching and supervision</h2>
+        <p>I teach physics and astrophysics-related topics across undergraduate and graduate programmes, with particular attention to quantitative reasoning, data analysis, and links between fundamental physics and modern computing.</p>
+      </div>
+      <div class="grid grid-2">
+        <article class="card">
+          <h3>Courses</h3>
+          <ul>
+            <li>Physics and Quantum Computing for Machine Learning and Big Data</li>
+            <li>Physics for Informatics</li>
+            <li>General Physics for Cybersecurity Engineering</li>
+            <li>Physics modules for applied and interdisciplinary programmes</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Student projects</h3>
+          <p>I supervise student research projects involving cometary science, exoplanets, astronomical surveys, and AI-assisted methods for astrophysical data analysis.</p>
+        </article>
+      </div>
     </section>
 
-    <section id="contact" class="container mt-5 mb-5 text-center">
+    <section id="service">
+      <div class="section-head">
+        <h2>Service, outreach, and inclusion</h2>
+        <p>Alongside research and teaching, I am committed to public engagement, mentoring, and initiatives supporting inclusion and work-life balance in astronomy and space science.</p>
+      </div>
+      <div class="grid grid-3">
+        <article class="card">
+          <h3>Scientific community</h3>
+          <p>Participation in international collaborations, working groups, conference sessions, and mission-preparation activities.</p>
+        </article>
+        <article class="card">
+          <h3>Outreach</h3>
+          <p>Public communication on astronomy, space missions, Vera Rubin, dark matter, comets, and the role of women in science.</p>
+        </article>
+        <article class="card">
+          <h3>DEI and care</h3>
+          <p>Activities addressing mental health, care responsibilities, work-life balance, and structural barriers in academic research careers.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact-box">
         <h2>Contact</h2>
+        <p>Department of Science and Technology, Università degli Studi di Napoli Parthenope, Centro Direzionale Isola C4, Naples, Italy.</p>
         <p>Email: <a href="mailto:laura.inno@uniparthenope.it">laura.inno@uniparthenope.it</a></p>
+      </div>
     </section>
+  </main>
 
-    <footer class="bg-dark text-white text-center p-3">
-        <p>&copy; 2025 Laura Inno. All Rights Reserved.</p>
-    </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <footer class="footer">
+    <p>&copy; 2026 Laura Inno. Academic website hosted on GitHub Pages.</p>
+  </footer>
 </body>
 </html>
